@@ -1,0 +1,18 @@
+# Local reference snapshots (keep on disk, do not publish)
+/crawl-output/
+/gaonsystem.html
+/product-190.html
+/product-190-images/
+/image-check/
+
+# Dependencies, generated output and credentials
+node_modules/
+.next/
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+__pycache__/

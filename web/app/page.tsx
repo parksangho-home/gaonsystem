@@ -1,402 +1,148 @@
-"use client";
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { CategoryGrid } from "@/components/category-grid";
+import { InquiryCTA } from "@/components/inquiry-cta";
+import { Arrow } from "@/components/icons";
+import { products } from "@/data/products";
 
-const products = [
-  {
-    brand: "YOKOGAWA",
-    name: "GP10 / GP20",
-    description:
-      "터치스크린 기반의 디지털 레코더로 다양한 신호를 안정적으로 기록하고 관리합니다.",
-    image: "/images/products/yokogawa-gp10.jpg",
-  },
-  {
-    brand: "YOKOGAWA",
-    name: "DL350 ScopeCorder",
-    description:
-      "전기·전자 및 산업 현장의 다양한 신호를 측정하고 기록하는 휴대형 스코프코더입니다.",
-    image: "/images/products/yokogawa-dl350.png",
-  },
-  {
-    brand: "YOKOGAWA",
-    name: "CA300 Series",
-    description:
-      "전압, 전류 및 각종 공정 신호를 현장에서 점검할 수 있는 휴대형 프로세스 캘리브레이터입니다.",
-    image: "/images/products/yokogawa-ca300-series.jpg",
-  },
-  {
-    brand: "GRAPHTEC",
-    name: "GL260",
-    description:
-      "다양한 입력 신호를 측정하고 기록할 수 있는 휴대형 데이터로거입니다.",
-    image: "/images/products/graphtec-gl260.jpg",
-  },
-];
-
-const services = [
-  {
-    icon: "▣",
-    title: "계측기 공급",
-    description: "국내외 다양한 계측장비를 공급합니다.",
-  },
-  {
-    icon: "◇",
-    title: "KOLAS 검교정",
-    description: "측정기의 정확도와 신뢰성을 위한 검교정 서비스를 제공합니다.",
-  },
-  {
-    icon: "♧",
-    title: "기술지원 및 A/S",
-    description: "제품 선택부터 사용까지 필요한 기술을 지원합니다.",
-  },
-  {
-    icon: "◇",
-    title: "맞춤형 컨설팅",
-    description: "현장에 적합한 계측장비와 솔루션을 제안합니다.",
-  },
-];
-
-const calibration = [
-  "온도",
-  "온습도",
-  "풍속",
-  "풍량",
-  "열화상",
-  "RPM",
-];
-
-const brands = [
-  "YOKOGAWA",
-  "GRAPHTEC",
-];
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 export default function Home() {
-  return (
-    <main>
-      {/* Header */}
-      <header className="site-header">
-        <a href="/" className="logo">
-          <span className="logo-mark">A</span>
-          <span>가온시스템</span>
-        </a>
-
-        <nav className="main-nav">
-          <a href="#about" target="_blank" rel="noreferrer">
-            회사소개
-          </a>
-
-          <a href="#products" target="_blank" rel="noreferrer">
-            제품정보
-          </a>
-
-          <a href="#kolas" target="_blank" rel="noreferrer">
-            KOLAS 검교정
-          </a>
-
-          <a href="#contact" target="_blank" rel="noreferrer">
-            고객센터
-          </a>
-        </nav>
-
-        <div className="header-actions">
-          <button aria-label="검색">⌕</button>
-          <button aria-label="메뉴">☰</button>
-        </div>
-      </header>
-
-      {/* Hero */}
-      <section className="hero">
-        <div className="hero-content">
-          <p className="eyebrow">
-            계측기 전문기업, 가온시스템
-          </p>
-
-          <h1>
-            <span>정확한 측정의 기준,</span>
-            <span>가온시스템이 함께합니다.</span>
-          </h1>
-
-          <p className="hero-description">
-            <span>계측기 공급부터 KOLAS 검교정까지</span>
-            <span>산업 현장에 필요한 측정 솔루션을 제공합니다.</span>
-          </p>
-
-          <div className="hero-buttons">
-            <a
-              href="#products"
-              className="button primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              제품 살펴보기 →
-            </a>
-
-            <a
-              href="#contact"
-              className="button secondary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              검교정 문의하기 →
-            </a>
+  const product = products.find((item) => item.featured)!;
+  return <>
+    <section className="home-hero">
+      <div className="container hero-grid">
+        <div className="hero-copy">
+          <p className="eyebrow">PRECISION IN EVERY MEASUREMENT</p>
+          <h1>정확한 측정,<br />더 나은 가능성.</h1>
+          <p className="hero-description">계측기 선택에서 기술지원까지.<br />가온시스템이 현장에 필요한 측정 솔루션을 함께합니다.</p>
+          <div className="button-row">
+            <Link className="button primary" href="/products">제품 살펴보기<Arrow />
+            </Link>
+            <Link className="button text" href="/contact">상담 및 견적 문의<Arrow />
+            </Link>
           </div>
+          <div className="hero-footnote">
+            <span />계측기 공급 · 기술지원 · KOLAS 검교정 상담</div>
         </div>
-
         <div className="hero-visual">
-          <img
-            src="/images/products/yokogawa-dl350.png"
-            alt="YOKOGAWA DL350 ScopeCorder"
-          />
-        </div>
-
-        <div className="hero-dots">
-          <span className="active" />
-          <span />
-          <span />
-        </div>
-      </section>
-
-      {/* Services */}
-      <section className="services">
-        {services.map((service) => (
-          <article className="service-item" key={service.title}>
-            <div className="service-icon">{service.icon}</div>
-
+          <div className="hero-visual-label">
+            <span>PRODUCT SPOTLIGHT</span>
+            <span>YOKOGAWA</span>
+          </div>
+          <Link href={`/products/${product.slug}`} aria-label="GP10/GP20 제품 상세 보기">
+            <Image src={product.image} alt="YOKOGAWA GP10과 GP20 터치스크린 디지털 레코더" width={850} height={558} sizes="(max-width: 900px) 90vw, 52vw" priority />
+          </Link>
+          <div className="hero-product-label">
             <div>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
+              <span>SMARTDAC+ / DIGITAL RECORDER</span>
+              <h2>GP10 / GP20</h2>
             </div>
-          </article>
-        ))}
-      </section>
-
-      {/* About */}
-      <section id="about" className="about section">
-        <div className="about-copy">
-          <p className="eyebrow">ABOUT US</p>
-
-          <h2>
-            <span>가온시스템은</span>
-            <span>계측기 전문기업입니다.</span>
-          </h2>
-
-          <p>
-            온도, 습도, 가스, 풍속 등 다양한 계측장비를 공급하며
-            국내외 계측장비에 대한 경험과 네트워크를 바탕으로
-            빠른 납기와 기술지원, A/S 서비스를 제공합니다.
-          </p>
-
-          <a
-            href="#contact"
-            className="text-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            회사소개 보기 →
-          </a>
-        </div>
-
-        <div className="about-points">
-          <div>
-            <strong>01</strong>
-            <h3>정확한 제품 공급</h3>
-            <p>
-              신뢰할 수 있는 계측장비를
-              제공합니다.
-            </p>
-          </div>
-
-          <div>
-            <strong>02</strong>
-            <h3>전문 기술 지원</h3>
-            <p>
-              제품 선택부터 사용까지
-              필요한 기술 상담을 지원합니다.
-            </p>
-          </div>
-
-          <div>
-            <strong>03</strong>
-            <h3>KOLAS 검교정 서비스</h3>
-            <p>
-              측정기의 정확도와 신뢰성을
-              유지할 수 있도록 지원합니다.
-            </p>
-          </div>
-
-          <div>
-            <strong>04</strong>
-            <h3>지속적인 파트너십</h3>
-            <p>
-              고객의 현장에 맞는
-              계측 솔루션을 함께 고민합니다.
-            </p>
+            <Link href={`/products/${product.slug}`} className="round-link" aria-label="GP10/GP20 자세히 보기">
+              <Arrow diagonal />
+            </Link>
           </div>
         </div>
-      </section>
-
-      {/* Products */}
-      <section id="products" className="products section">
+      </div>
+    </section>
+    <div className="brand-strip">
+      <div className="container brand-strip-inner">
+        <span>측정 현장을 연결하는 파트너</span>
+        <div>
+          <Link href="/products?brand=YOKOGAWA">YOKOGAWA</Link>
+          <Link href="/products?brand=GRAPHTEC">GRAPHTEC</Link>
+        </div>
+        <span className="brand-strip-note">계측기 · 기술지원 · 제품 상담</span>
+      </div>
+    </div>
+    <section className="section container" id="categories">
+      <div className="section-heading">
+        <div>
+          <p className="eyebrow">PRODUCT CATEGORIES</p>
+          <h2>어떤 측정이 필요하신가요?</h2>
+          <p>제품군에서 시작해, 현장에 맞는 장비를 찾아보세요.</p>
+        </div>
+        <Link className="text-link" href="/products">전체 제품 탐색<Arrow />
+        </Link>
+      </div>
+      <CategoryGrid />
+    </section>
+    <section className="feature-section">
+      <div className="container feature-grid">
+        <div className="feature-image">
+          <span className="small-label">YOKOGAWA · SMARTDAC+</span>
+          <Image src="/images/products/gp10-portable.jpg" alt="손잡이를 이용해 이동할 수 있는 YOKOGAWA GP10 레코더" width={850} height={808} sizes="(max-width: 900px) 90vw, 40vw" />
+        </div>
+        <div className="feature-copy">
+          <p className="eyebrow">MEASUREMENT, MADE CLEAR</p>
+          <h2>현장의 신호를<br />명확한 데이터로.</h2>
+          <p className="feature-model">GP10 / GP20 디지털 레코더</p>
+          <p>터치스크린으로 측정의 흐름을 확인하고,<br className="desktop-break" /> 필요한 입력 모듈로 나만의 측정 환경을 구성하세요.</p>
+          <div className="feature-facts">
+            <div>
+              <strong>30<span>채널</span>
+              </strong>
+              <span>GP10 본체 최대 입력</span>
+            </div>
+            <div>
+              <strong>100<span>채널</span>
+              </strong>
+              <span>GP20 본체 최대 입력</span>
+            </div>
+          </div>
+          <p className="fine-print">아날로그 입력 기준. 장착 모듈 구성에 따라 달라집니다.</p>
+          <Link className="button primary" href="/products/gp10-gp20">제품 상세 보기<Arrow />
+          </Link>
+        </div>
+      </div>
+    </section>
+    <section className="section container about-section" id="about">
+      <div>
+        <p className="eyebrow">ABOUT GAON SYSTEM</p>
+        <h2>측정의 시작부터,<br />가온시스템.</h2>
+      </div>
+      <div className="about-body">
+        <p className="large-copy">장비를 넘어, 현장에 알맞은<br />솔루션을 생각합니다.</p>
+        <p>가온시스템은 국내외 계측장비에 대한 경험과 네트워크를 바탕으로 계측기 공급과 기술지원, A/S를 제공합니다. 제품 선택부터 사용 중 궁금한 점까지 편안하게 상담해 주세요.</p>
+        <Link className="text-link" href="/contact">가온시스템에 문의하기<Arrow />
+        </Link>
+      </div>
+    </section>
+    <section className="support-section" id="support">
+      <div className="container section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">FEATURED PRODUCTS</p>
-
-            <h2>주요 제품</h2>
-
-            <p>
-              산업 현장에 필요한
-              계측 솔루션을 만나보세요.
-            </p>
+            <p className="eyebrow">TECHNICAL SUPPORT</p>
+            <h2>필요한 정보를, 더 가까이.</h2>
           </div>
-
-          <a
-            href="#contact"
-            className="text-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            전체 제품 보기 →
-          </a>
+          <p>제품을 알아보는 순간부터 사용 이후까지.</p>
         </div>
-
-        <div className="product-grid">
-          {products.map((product) => (
-            <article className="product-card" key={product.name}>
-              <div className="product-image">
-                <img
-                  src={product.image}
-                  alt={`${product.brand} ${product.name}`}
-                />
-              </div>
-
-              <div className="product-info">
-                <p className="product-brand">
-                  {product.brand}
-                </p>
-
-                <h3>{product.name}</h3>
-
-                <p>{product.description}</p>
-
-                <a
-                  href="#contact"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  자세히 보기 →
-                </a>
-              </div>
-            </article>
-          ))}
+        <div className="support-grid">
+          <Link href="/products/gp10-gp20#documents">
+            <span className="support-number">01 / DOCUMENTS</span>
+            <h3>제품 기술자료</h3>
+            <p>GP10/GP20 공식 제품정보와<br />사양서, 매뉴얼을 확인하세요.</p>
+            <span className="text-link">자료 확인<Arrow />
+            </span>
+          </Link>
+          <Link href="/contact?topic=calibration">
+            <span className="support-number">02 / CALIBRATION</span>
+            <h3>KOLAS 검교정 상담</h3>
+            <p>검교정이 필요한 장비의 모델과<br />요청 내용을 알려주세요.</p>
+            <span className="text-link">검교정 문의<Arrow />
+            </span>
+          </Link>
+          <Link href="/contact?topic=support">
+            <span className="support-number">03 / CONSULTATION</span>
+            <h3>기술지원 및 A/S 문의</h3>
+            <p>사용 중인 제품과 증상을 바탕으로<br />필요한 내용을 상담하세요.</p>
+            <span className="text-link">기술지원 문의<Arrow />
+            </span>
+          </Link>
         </div>
-      </section>
-
-      {/* KOLAS */}
-      <section id="kolas" className="kolas">
-        <div className="kolas-copy">
-          <p className="eyebrow">KOLAS CALIBRATION</p>
-
-          <h2>
-            KOLAS 검교정 서비스
-          </h2>
-
-          <p>
-            신뢰할 수 있는 검교정으로
-            측정기의 정확도를 유지하세요.
-          </p>
-
-          <a
-            href="#contact"
-            className="button outline"
-            target="_blank"
-            rel="noreferrer"
-          >
-            검교정 문의하기 →
-          </a>
-        </div>
-
-        <div className="calibration-area">
-          <p>검교정 가능 분야</p>
-
-          <div className="calibration-list">
-            {calibration.map((item) => (
-              <div key={item}>
-                <span>○</span>
-                <strong>{item}</strong>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Brands */}
-      <section className="brands">
-        <p>취급 브랜드</p>
-
-        <div>
-          {brands.map((brand) => (
-            <span key={brand}>{brand}</span>
-          ))}
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="contact section">
-        <p className="eyebrow">CONTACT</p>
-
-        <h2>
-          <span>계측기와 검교정에 대해</span>
-          <span>궁금한 점이 있으신가요?</span>
-        </h2>
-
-        <p>
-          제품 상담부터 검교정까지
-          편하게 문의해주세요.
-        </p>
-
-        <a
-          href="tel:070-7954-9954"
-          className="contact-phone"
-        >
-          070-7954-9954
-        </a>
-
-        <p>평일 09:00 ~ 18:00</p>
-      </section>
-
-      {/* Footer */}
-      <footer>
-        <div className="footer-top">
-          <a href="/" className="logo footer-logo">
-            <span className="logo-mark">A</span>
-            <span>가온시스템</span>
-          </a>
-
-          <div className="footer-info">
-            <p>
-              상호 : 가온시스템　대표 : 김은정
-            </p>
-
-            <p>
-              사업자등록번호 : 560-38-00733
-            </p>
-
-            <p>
-              서울특별시 구로구 부광로 88,
-              SK V1센터 A동 504호
-            </p>
-          </div>
-
-          <div className="footer-phone">
-            <span>문의전화</span>
-            <strong>070-7954-9954</strong>
-          </div>
-        </div>
-
-        <div className="footer-bottom">
-          <span>
-            © GAON SYSTEM. All rights reserved.
-          </span>
-        </div>
-      </footer>
-    </main>
-  );
+      </div>
+    </section>
+    <InquiryCTA />
+  </>;
 }

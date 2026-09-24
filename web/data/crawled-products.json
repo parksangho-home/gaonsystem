@@ -1,0 +1,554 @@
+[
+  {
+    "id": "195",
+    "title": "YOKOGAWA CW500 휴대용 전력 분석기",
+    "description": "포터블 전력모니터 PQA (Power Quality Analyzer)Volts, Amps, Watts, Vars, VA, PF, PA, Frequency, harmonics, demand 측정지원",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=195",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/74854f57bf281.png",
+      "https://cdn.imweb.me/thumbnail/20260118/d7e5c8e326c01.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/f008504b47b63.png"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "YOKOGAWA CT1000S AC/DC 스플릿 코어 전류 센서",
+    "description": "&bull; 정격전류 : AC/DC 1000A &bull; 확도 : &plusmn; (0.2 % of reading + 0.01 % of full scale) &bull; 주파수 대역(-3dB) :...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=179",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/6a921016b0fdb.png",
+      "https://cdn.imweb.me/thumbnail/20260116/c81120e5b7022.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/85e766a1a2281.png"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "YOKOGAWA PX8000 파워 아날라이저",
+    "description": "&bull; 입력채널수 : 최대 4개 (전압/전류채널 Pair)&bull; 정확도 : 0.1% of Reading + 0.1% of Range&bull; 주파수 레인지 : DC to 20 MHz&b...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=178",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/5ed1f9c3f6715.png",
+      "https://cdn.imweb.me/thumbnail/20260116/cc71eddc2a709.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/fc6bfb51705ae.png"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "YOKOGAWA AC/DC 전류 센서 CT2000A/ CT1000A/ CT1000/ CT200/ CT60",
+    "description": "CT2000A&bull; 전류 범위: 0 ~ 2000 A (DC), 3000 Apeak (AC)&bull; 넓은 측정 주파수 범위: DC ~ 40 kHz (-3 dB)&bull; 고정밀 기본 ...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=177",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/0c8a1b39fd7b2.png",
+      "https://cdn.imweb.me/thumbnail/20260116/b9b8f2f5bedf2.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/91c026a8b443d.png"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "YOKOGAWA WT300 파워 아날라이저",
+    "description": "&bull; 입력채널수 : WT310E / WT310EH 1개, WT332E 2개, WT333E 3개&bull; 정확도 : 0.1% of Reading + 0.1% of Range&bull; 주파수...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=176",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/0476895108b1b.png",
+      "https://cdn.imweb.me/thumbnail/20260116/cb8f5d0a0bc45.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/32e59bb195418.png"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "YOKOGAWA WT500 파워 아날라이저",
+    "description": "&bull; 입력채널수 : 최대 3개&bull; 정확도 : 0.1% of Reading+0.1% of Range&bull; 주파수 레인지 : DC, 0.5 Hz to 100 kHz&bull; A...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=175",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/de3c980c3f933.png",
+      "https://cdn.imweb.me/thumbnail/20260116/9e05dabeaa8c6.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/8b7aadd4599f8.png"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "YOKOGAWA WT1800R 파워 아날라이저",
+    "description": "&bull; 입력채널수 : 최대 6개&bull; 정확도 : 0.05% of Reading &plusmn;0.05% of Range&bull; 주파수 레인지 : DC, 0.1 Hz ~ 5MHz&b...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=174",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260906/3b2f3dd7b79e4408.jpg",
+      "https://cdn.imweb.me/thumbnail/20260906/4a89f9cda692453a.jpg",
+      "https://cdn.imweb.me/thumbnail/20260906/85e597b2f03c4786.jpg"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "YOKOGAWA WT5000 파워 아날라이저",
+    "description": "&bull; 입력채널수 : 최대 7개&bull; 정확도 : &plusmn;0.03% 세계최고 전력측정 정확도 실현 &bull; 주파수 레인지 : DC, 0.1 Hz ~ 10MHz&bull; AC/D...",
+    "category": "power-analyzers",
+    "url": "https://gaonsystem.kr/shop_view/?idx=173",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260906/e5095f979d8c4b0b.jpg",
+      "https://cdn.imweb.me/thumbnail/20260906/794b7d03059a4ce0.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/1e6a098470b99.png"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "YOKOGAWA DLM3000HD 고성능 오실로스코프",
+    "description": "&bull; 대역폭 : 350 / 500 MHz&bull; 채널 구성 : 4ch 입력 + 8 bit 로직 입력 지원&bull; 샘플 레이트 : 2.5 GS/s&bull; 레코드 길이 : Max....",
+    "category": "oscilloscopes",
+    "url": "https://gaonsystem.kr/shop_view/?idx=183",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/0f04eb0a9e2b6.png",
+      "https://cdn.imweb.me/thumbnail/20260116/f36f0a258a1ac.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/cab0b29793520.png"
+    ]
+  },
+  {
+    "id": "182",
+    "title": "YOKOGAWA DLM3000 오실로스코프",
+    "description": "&bull; 대역폭 : 200 / 350 / 500 MHz&bull; 채널 구성 : 2ch / 4ch 입력 + 8bit 로직 입력 지원&bull; 샘플 레이트 : 2.5 GS/s&bull; 레코드...",
+    "category": "oscilloscopes",
+    "url": "https://gaonsystem.kr/shop_view/?idx=182",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/a28f7857951c2.png",
+      "https://cdn.imweb.me/thumbnail/20260116/05a9e87581f8c.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/c2c5cd48d0c8f.png"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "YOKOGAWA DLM5000HD 고성능 오실로스코프",
+    "description": "&bull; 대역폭 : 350 / 500 MHz&bull; 채널 구성 : 4ch / 8ch 입력 + 32 bit 로직 입력 지원&bull; 샘플 레이트 : 2.5 GS/s&bull; 레코드 길이 :...",
+    "category": "oscilloscopes",
+    "url": "https://gaonsystem.kr/shop_view/?idx=181",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/4db7a179be703.png",
+      "https://cdn.imweb.me/thumbnail/20260116/ebab8bb00edcc.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/3434c86d35395.png"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "YOKOGAWA DLM5000 오실로스코프",
+    "description": "&bull; 대역폭 : 350 / 500 MHz&bull; 채널 구성 : 4ch / 8ch 입력 + 32 bit 로직 입력 지원&bull; 샘플 레이트 : 2.5 GS/s&bull; 레코드 길이 :...",
+    "category": "oscilloscopes",
+    "url": "https://gaonsystem.kr/shop_view/?idx=180",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/8808e293f3272.png",
+      "https://cdn.imweb.me/thumbnail/20260116/9764c2250b334.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/a022c6ffee90b.png"
+    ]
+  },
+  {
+    "id": "219",
+    "title": "YOKOGAWA SL1000",
+    "description": "고속 포착, 고속 전송, 고속 보존을 추구하여 고성능을실현한 데이터 어퀴지션 유닛메카트로닉스·일렉트로닉스 분야를 비롯한 고속·저속 현상의 복합 측정에 있어서, 고속 샘플 레이트, 고전압의 절연 측정...",
+    "category": "scopecorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=219",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260907/b25d1559867040f2.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/c3f8fdbb95124b80.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/1b54fbd979654ff8.jpg"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "YOKOGAWA DL350 디지털 스코프코더",
+    "description": "&bull; 소형경량, 배터리 구동, 내진동규격 준수(JIS D1601)&bull; 절연8채널(최대) + 16채널 로직입력(표준)&bull; 최대 100MS/s 샘플링속도, 절연 1000V 전압 측...",
+    "category": "scopecorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=194",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260907/52655a7600eb4c9f.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/be93207c438a47c4.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/ae098a8ace6c4998.jpg"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "YOKOGAWA DL950 디지털 스코프코더",
+    "description": "&bull; 8Gpoints 롱메모리&bull; 플래시 메모리, SSD 레코딩 고속 샘플링 지원&bull; 16채널 리얼 타임 연산 채널 독립 운영&bull; 12.1인치 터치스크린&bull; 5대...",
+    "category": "scopecorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=193",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260907/2cec2b5774d147ed.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/e3a6d3aace5a4b9f.jpg",
+      "https://cdn.imweb.me/thumbnail/20260907/8c63526b5e464a07.jpg"
+    ]
+  },
+  {
+    "id": "216",
+    "title": "[정품] [10개입] 기록지 B9565AW (uR1000/uR10000용)",
+    "description": "B9565AW YOKOGAWA 정품 용지",
+    "category": "chart-paper",
+    "url": "https://gaonsystem.kr/shop_view/?idx=216",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260331/7322dda800203.png",
+      "https://cdn.imweb.me/thumbnail/20260331/fa298349648a5.jpg",
+      "https://cdn.imweb.me/thumbnail/20260331/18cad0e9d77db.png"
+    ]
+  },
+  {
+    "id": "192",
+    "title": "YOKOGAWA SMART920 무선 데이터 수집 솔루션",
+    "description": "&bull; 무선 통신을 통한 데이터 수집&bull; 920MHz 무선 대역 사용&bull; 제품 간의 거리 700m, 최대 16 Hop 가능 (약11Km)&bull; Wireless Input U...",
+    "category": "recorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=192",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/a53b707a249c3.png",
+      "https://cdn.imweb.me/thumbnail/20260118/1433e706ec8fa.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/295893eaac155.png"
+    ]
+  },
+  {
+    "id": "191",
+    "title": "YOKOGAWA GM Series 레코더",
+    "description": "&bull; 웹 기반의 실시간 데이터 모니터링&bull; 간단한 탈착으로 원하는 채널수의 측정가능(최대 420채널)&bull; 모바일 접속 가능(블루투스 통신)&bull; 듀얼 인터벌 측정&bull...",
+    "category": "recorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=191",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/ce246b81d7293.png",
+      "https://cdn.imweb.me/thumbnail/20260118/02787351ce328.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/ba07023f8cbc3.png"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "YOKOGAWA EY200 접지 저항계",
+    "description": "● 0~1,999&Omega;의 접지저항을 원터치 조작으로 측정● 지전압（0～200V） 측정가능● JIS C1302:2002에 준거, 방진방수형",
+    "category": "portable",
+    "url": "https://gaonsystem.kr/shop_view/?idx=198",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/2a9870aafe6ec.png",
+      "https://cdn.imweb.me/thumbnail/20260118/7ee9f199d188f.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/fb692e3f30969.png"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "YOKOGAWA MY600 절연 저항계",
+    "description": "디지털 절연 저항계 MY6006 레인지, 디지털 타입, 1모델PI 및 DAR 측정/교류 직류 전압 측정",
+    "category": "portable",
+    "url": "https://gaonsystem.kr/shop_view/?idx=197",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/0ce76a9665471.png",
+      "https://cdn.imweb.me/thumbnail/20260118/c817eb572241f.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/725966a923c44.png"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "YOKOGAWA CL 클램프 온 테스터",
+    "description": "프로세스 메인트넌스용 클램프AC 전용 클램프 테스터AC/DC 겸용 클램프 테스터누설 전용 클램프 테스터대구경(54&oslash;) 소구경(24&oslash;) 모델 라인업",
+    "category": "portable",
+    "url": "https://gaonsystem.kr/shop_view/?idx=196",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/c29a2f6dde9c8.png",
+      "https://cdn.imweb.me/thumbnail/20260118/ae4584ecfb65f.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/22b0cd8a988cf.png"
+    ]
+  },
+  {
+    "id": "212",
+    "title": "YOKOGAWA 2553A 고정밀 캘리브레이터",
+    "description": "&bull; 직류전압：&plusmn;75 ppm 직류전류：&plusmn;120 ppm&bull; 안정도：&plusmn;15 ppm/h 노이즈：2&micro;Vrms&bull; 5.5자리수 &plus...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=212",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/95ca539839a0d.png",
+      "https://cdn.imweb.me/thumbnail/20260118/991b2c846278e.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/2393ba1863338.png"
+    ]
+  },
+  {
+    "id": "211",
+    "title": "YOKOGAWA 2560A 고정밀 캘리브레이터",
+    "description": "&bull; 직류 전압 : &plusmn;50 ppm, 직류 전류 : &plusmn;120 ppm&bull; 직류 전압 : &plusmn;10 ppm/h, 직류 전류 : &plusmn;20 ppm/...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=211",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/428cd9adef094.png",
+      "https://cdn.imweb.me/thumbnail/20260118/34c32e4015590.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/c06b1004c50eb.png"
+    ]
+  },
+  {
+    "id": "210",
+    "title": "YOKOGAWA 2558A 고정밀 캘리브레이터",
+    "description": "&bull; 교류전압： 1.00 mV ～ 1200.0V&bull; 교류전류： 1.00 mA ～ 60.00A&bull; 고확도 : 교류전압： &plusmn;0.04%, 교류전류： &plusmn;0.0...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=210",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/f9cfef4fe1e05.png",
+      "https://cdn.imweb.me/thumbnail/20260118/588d53b821740.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/0d9a78ce186a2.png"
+    ]
+  },
+  {
+    "id": "209",
+    "title": "YOKOGAWA LS3300 고정밀 캘리브레이터",
+    "description": "&bull; 전압/전류출력 : 최대 1250V / 62.5A 출력&bull; 전력확도 : &plusmn;450 ppm(&plusmn;0.045%) 전압확도 : &plusmn;350 ppm(&plu...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=209",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/abf7a046c3653.png",
+      "https://cdn.imweb.me/thumbnail/20260118/5524caf94cf9e.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/6fcd070ea02f4.png"
+    ]
+  },
+  {
+    "id": "203",
+    "title": "YOKOGAWA CA700 캘리브레이터",
+    "description": "&bull; 기본확도 : 압력(측정)/0.02%rdg&bull; 전류/전압(발생/측정)/0.015%rdg&bull; 최고급의 분해능과 와이드 레인지 실현(0.001kPa/200.000kPa)&bul...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=203",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/d8fc8ee3ccd28.png",
+      "https://cdn.imweb.me/thumbnail/20260118/c377b438f5284.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/cdb5bf29b5ed8.png"
+    ]
+  },
+  {
+    "id": "202",
+    "title": "YOKOGAWA CA450 캘리브레이터",
+    "description": "&bull; Loop체크기능, 전송기 시뮬레이트(SINK)기능&bull; 4-20mA Span/Step/Auto Step/Sweep 출력&bull; DC30.000m A까지의 계장신호를 0.05%로...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=202",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/96bd481aa93cb.png",
+      "https://cdn.imweb.me/thumbnail/20260118/0480687c47f0d.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/c2ec798d38065.png"
+    ]
+  },
+  {
+    "id": "201",
+    "title": "YOKOGAWA CA51/71 캘리브레이터",
+    "description": "&bull; 소스 : DCV, DCA, 저항, RTD, TC(10가지), 주파수, 펄스&bull; 메저 : DCV, DCA, ACV, 저항, RTD, TC(10가지), 주파수, 펄스&bull; 발생...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=201",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/a5bbf0d903bd6.png",
+      "https://cdn.imweb.me/thumbnail/20260118/51b21156a641b.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/b6abd12262e1a.png"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "YOKOGAWA CA300 시리즈 캘리브레이터",
+    "description": "&bull; CA310 전압&middot;전류 캘리브레이터&bull; CA320 열전대 캘리브레이터&bull; CA330 측온 저항체 캘리브레이터",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=200",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/cd4dfda86d43e.png",
+      "https://cdn.imweb.me/thumbnail/20260118/e5ca7caf33a43.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/49458457ef980.png"
+    ]
+  },
+  {
+    "id": "199",
+    "title": "YOKOGAWA CA500/CA550 캘리브레이터",
+    "description": "&bull; CA500 확도 : 0.015% (DC 전류), 0.020% (저항), 0.3˚C (RTD)&bull; CA550 확도 : 0.010% (DC 전류), 0.015% (저항), 0.1˚C...",
+    "category": "calibrators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=199",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/1ddb966fde17d.png",
+      "https://cdn.imweb.me/thumbnail/20260118/eb500445b43ce.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/55496c88561c9.png"
+    ]
+  },
+  {
+    "id": "204",
+    "title": "YOKOGAWA FG400 펑션 제너레이터",
+    "description": "&bull; 라인업 : FG410 (1 채널 모델) / FG420 (2 채널 모델)다양한 파형 표준 탑재, 필요한 임의파형 생성&출력지원각 채널간 절연 출력지원 / 플로팅 회로의 엔지니어링 ...",
+    "category": "generators",
+    "url": "https://gaonsystem.kr/shop_view/?idx=204",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/7d9a1f8daa845.png",
+      "https://cdn.imweb.me/thumbnail/20260118/03365683dcd35.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/5cd4f7dd23ab5.png"
+    ]
+  },
+  {
+    "id": "207",
+    "title": "YOKOGAWA TY500 Series 멀티미터",
+    "description": "&bull; 포터블 멀티미터&bull; 2개 모델 : TY520, TY530&bull; 기본 정확도 : 0.09% &bull; 전류 클램프 센서를 통한 전류 측정기능&bull; 로깅용 메모리를 16...",
+    "category": "multimeters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=207",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/977ac8dfb2b0d.png",
+      "https://cdn.imweb.me/thumbnail/20260118/d3b2503c92b38.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/792b930fb9c04.png"
+    ]
+  },
+  {
+    "id": "206",
+    "title": "YOKOGAWA TY700 Series 멀티미터",
+    "description": "&bull; 포터블 멀티미터&bull; 2개 모델 : TY710, TY210&bull; 기본 정확도 : 0.02%&bull; DC와 AC의 동시 측정 표시&bull; 실효값/평균값 표시전환, 로우패...",
+    "category": "multimeters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=206",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/a5c151b60fc19.png",
+      "https://cdn.imweb.me/thumbnail/20260118/271eafdc3af12.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/294179e3e1018.png"
+    ]
+  },
+  {
+    "id": "205",
+    "title": "YOKOGAWA DM7560 벤치형 디지털 멀티미터",
+    "description": "&bull; 벤치타입 멀티메터&bull; 고속 샘플링을 탑재한 멀티메터 - 최대 30k Sample/sec&bull; 뛰어난 가독성 및 디스플레이 모드 - TFT 칼러 LCD, 아날로드 미터...",
+    "category": "multimeters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=205",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/b523838874edf.png",
+      "https://cdn.imweb.me/thumbnail/20260118/04f179fd31f66.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/fc09616387d7d.png"
+    ]
+  },
+  {
+    "id": "215",
+    "title": "YOKOGAWA GS200 소스 미터",
+    "description": "&bull; 발생･측정범위 - 출력 레인지 : &plusmn;32V, &plusmn;200mA&bull; &plusmn;0.016%의 기본확도&bull; 5.5digit &plusmn; 1...",
+    "category": "source-meters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=215",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/c9ddfc546d6d4.png",
+      "https://cdn.imweb.me/thumbnail/20260118/e7ec6cd012c57.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/87df6ef6b2ad7.png"
+    ]
+  },
+  {
+    "id": "214",
+    "title": "YOKOGAWA GS610 소스 미터",
+    "description": "&bull; 발생･측정범위 - 출력 레인지 : 110V, 3.2A&bull; &plusmn;0.02%의 기본확도&bull; 다양한 출력 패턴(연속, 리니어, 로그, 임의 Sweep)&bul...",
+    "category": "source-meters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=214",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/cc0686e8b3058.png",
+      "https://cdn.imweb.me/thumbnail/20260118/fa0b475fe342a.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/f6488e56d684d.png"
+    ]
+  },
+  {
+    "id": "213",
+    "title": "YOKOGAWA GS820 소스 미터",
+    "description": "&bull; 2채널 발생＆측정기능&bull; 발생･측정범위 - 표준모델 ： 7V/3.2A, 18V/1.2A - 50V모델 ： 20V/1.2A, 50V/0.6A New&bull; 최...",
+    "category": "source-meters",
+    "url": "https://gaonsystem.kr/shop_view/?idx=213",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/9acd426eceba5.png",
+      "https://cdn.imweb.me/thumbnail/20260118/7c9848419eaab.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/0c9ba0134a79d.png"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "YOKOGAWA MT300 압력 측정기",
+    "description": "&bull; 0.01% 고정밀 압력측정기 (게이지압/절대압/차압)&bull; 다양한 라인업 보유 (3개 모델/ 13레인지)&bull; AC전원 및 배터리 구동 지원&bull; 4.3인치 LCD 화면",
+    "category": "pressure",
+    "url": "https://gaonsystem.kr/shop_view/?idx=208",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260118/e92323c136aa9.png",
+      "https://cdn.imweb.me/thumbnail/20260118/fa58ffe1f0242.png",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/607e9e5342f1e.png"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "FLIR C5 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=189",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/71fa69b190c3b.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/204ff9ba780c8.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/d208ead3afa39.jpg"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "FLIR C3-X 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=188",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/b920284fc0d26.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/aa09ad2bd8b61.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/d0e4fa0a6dd0a.jpg"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "FLIR Ex PRO 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=187",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/b21000b357b9c.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/7ee2d5cf6445c.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/ffc1b849e0a33.jpg"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "FLIR Exx 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=186",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/a4718e68ec72f.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/f397cbca082e2.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/cbebb77c41bb4.jpg"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "FLIR T5xx 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=185",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/2fc265d8e657e.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/c2ea649a78044.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/399fe102bff33.jpg"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "FLIR T8xx 열화상 카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=184",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260116/16e43dcced7e1.jpg",
+      "https://cdn.imweb.me/thumbnail/20260116/062d966edab0f.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/910cd1a42c641.jpg"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "FLIR T10xx 열화상카메라",
+    "description": "",
+    "category": "thermal",
+    "url": "https://gaonsystem.kr/shop_view/?idx=172",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260114/c27cfb0c110ca.jpg",
+      "https://cdn.imweb.me/thumbnail/20260114/f6b94f3d547ba.jpg",
+      "https://cdn.imweb.me/upload/S20251023bc2b17a81c705/2e6d39e0f175a.jpg"
+    ]
+  },
+  {
+    "id": "217",
+    "title": "GRAPHTEC GL260 데이터로거 그라프텍 midi logger",
+    "description": "All Channel Isolated / Universal Input, Standalone Multi-ChannelVoltage, temperature, and humidity can be sele...",
+    "category": "recorders",
+    "url": "https://gaonsystem.kr/shop_view/?idx=217",
+    "gallery": [
+      "https://cdn.imweb.me/thumbnail/20260331/f9342729dc7db.png",
+      "https://cdn.imweb.me/thumbnail/20260331/c2e748f0ea85b.png",
+      "https://cdn.imweb.me/thumbnail/20260331/5ee33d7893cb0.png"
+    ]
+  }
+]

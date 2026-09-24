@@ -1,0 +1,2 @@
+# Keep generated JSON hashes stable across Windows and Unix checkouts.
+*.json text eol=lf
